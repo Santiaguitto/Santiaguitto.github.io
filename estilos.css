@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+  font-family: 'Bebas Neue', sans-serif;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #000000;
+}
+
+
+.asian-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000000;
+    background-color: hsla(0, 0%, 100%, 0.747);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .asian-button:hover {
+    background-color: rgb(255, 94, 0);
+  }
+  
+  .asian-button:active {
+    background-color: hsla(189, 100%, 50%, 0.747);
+  }
+
+  p{
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    color: white;
+    margin: 0 auto;
+  border: 0.5px solid;
+  }
+
+  h1.acercademi{
+    background-color: rgb(0, 0, 0);
+    width: max-content;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    margin: 0 auto;
+  }
+
+    
+
+
+  h1.santiaguito{
+    
+  display: inline-block;
+  padding: 10px;
+    border-radius: 10px;
+    color: rgb(219, 76, 219);
+  }
+
+header{
+  position:fixed;
+  top: 0;
+}
+
+.EXPE{
+  background-color: rgb(0, 0, 0);
+    width: max-content;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    margin: 0 auto;
+}
+
+main{
+  padding-top: 100px;
+}
+
+.experiencialab{
+  background-color: rgba(240, 248, 255, 0);
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
+  border: 0.5px solid;
+}
+
+.CONTATO{
+  background-color: rgb(0, 0, 0);
+    width: max-content;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    margin: 0 auto;
+}
+
+.contactoarea{
+  background-color: rgba(240, 248, 255, 0);
+  padding: 10px;
+  border-radius: 10px;
+  width: 15%;
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
+  border: none;
+  
+
+}
+
+section{
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://thumbs.gfycat.com/ScrawnyCapitalGallinule-size_restricted.gif);
+  background-position: center;
+  text-align: center;
+}
